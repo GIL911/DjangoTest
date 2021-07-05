@@ -1,0 +1,13 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>wirte</title>
+</head>
+<body>
+    <ul>
+        {% for article in articleList%}
+        <li>{{article.title}}|{{article.name}}|{{article.cdate}}</li>
+        {%endfor%}
+    </ul>
+</body>
+</html>
