@@ -8,6 +8,7 @@ urlpatterns =[
     path('write/', views.write, name='write'),
     #List
     path('List/', views.list, name='list'),
+    path('vue/', views.vue, name='vue'),
     # view
     #re_path(r'^post(.*)/$', blog_views.post),
     #re_path(r'^view/([0-9])/$', views.view, name='view')

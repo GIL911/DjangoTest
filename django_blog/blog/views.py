@@ -25,4 +25,7 @@ def view(request, num='1'):
     article=Article.objects.get(id=num)
     return render(request, 'view.html', {'article': article})
 
+def vue(request):
+    return render(request, 'gugudan.html')
+
 
