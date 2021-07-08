@@ -28,4 +28,7 @@ def view(request, num='1'):
 def vue(request):
     return render(request, 'gugudan.html')
 
+def vue1(request):
+    return render(request, 'gugudan1.html')
+
 
